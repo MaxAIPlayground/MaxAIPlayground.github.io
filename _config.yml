@@ -21,19 +21,28 @@
 title: Max's AI Playground
 email: aiwithmax@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  On my AI playground I'm delving into new AI tools and showcase interesting
-  projcets that make use of ChatGPT and all other related, shiny new things.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+twitter_username: MaxAIPlayground
+logo: "/assets/img/profile-max.png"
 github_username: MaxAIPlayground
+highlighter: rouge
+google_analytics: G-D90NHE2L3B
+show_drafts: true
 
 # Build settings
-# theme: minimal
-remote_theme: pages-themes/minimal@v0.2.0
+theme: null
+# theme: max-ai-playground
+# theme: jekyll-theme-primer
+# remote_theme: pages-themes/primer@v0.6.0
 plugins:
   - jekyll-feed
+  - jekyll-postcss
   # - jekyll-remote-theme
+
+postcss:
+  cache: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

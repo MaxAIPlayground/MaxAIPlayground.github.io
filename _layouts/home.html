@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}" class="h-full">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% seo %}
+        <link rel="stylesheet" href="{{ "/assets/css/styles.css?v=" | append: site.github.build_revision | relative_url }}">
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
+        {% include head-custom.html %}
+    </head>
+    <body class="h-full pt-5 xs:pt-7 {{ page.slug | replace: ' ', '-' | downcase }}">
+        <div class="flex min-h-full flex-col wrapper container max-w-3xl mx-auto">
+            {% include header.html %}
+            <section class="w-full max-w-lg prose prose-headings:text-brand-red prose-pre:text-sm prose-img:my-[1.25em] max-w-none mx-auto flex-1">
+                {{ content }}
+            </section>
+            <div class="flex-shrink-0">
+                {% include footer.html %}
+            </div>
+        </div>
+        <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    </body>
+</html>
