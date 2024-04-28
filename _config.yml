@@ -32,13 +32,10 @@ show_drafts: true
 
 # Build settings
 theme: null
-# theme: max-ai-playground
-# theme: jekyll-theme-primer
-# remote_theme: pages-themes/primer@v0.6.0
 plugins:
   - jekyll-feed
   - jekyll-postcss
-  # - jekyll-remote-theme
+  - jekyll-seo-tag
 
 postcss:
   cache: false
