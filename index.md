@@ -13,7 +13,7 @@ title: Max's AI Playground
 <ul class="mt-6 mb-14 w-full list-none">
     {% for post in site.posts %}
     <li class="p-8 bg-blue-100 rounded-md">
-        <h3 class="mt-0 mb-6 text-brand-red">My Latest Post from <em>{{ post.date | timeago }}</em>:</h3>
+        <h3 class="mt-0 mb-6 text-brand-red">My Latest Post</em>:</h3>
         <a class="block my-0 font-bold no-underline text-lg" href="{{ post.url }}">
             <span class="block">
                 <!-- <span>»</span> -->
