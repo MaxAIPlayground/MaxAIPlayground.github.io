@@ -37,6 +37,13 @@ plugins:
   - jekyll-postcss
   - jekyll-seo-tag
 
+sass:
+  implementation: sass-embedded
+  load_paths:
+    - node_modules
+
+include: ["node_modules/tailwindcss"]
+
 postcss:
   cache: false
 
