@@ -16,7 +16,7 @@ title: Max's AI Playground
             <span class="underline">{{ post.title }}</span>
         </span>
         <span class="block">
-            <img class="!mt-4 !mb-2 shadow-sm rounded-md" src="{{ post.cover }}" srcset="{{ post.cover2x }} 2x" title="{{ post.title }}">
+            <img class="!mt-4 !mb-2 shadow-sm rounded-md" src="{{ post.image }}" srcset="{{ post.image2x }} 2x" title="{{ post.title }}">
         </span>
     </a>
 </div>

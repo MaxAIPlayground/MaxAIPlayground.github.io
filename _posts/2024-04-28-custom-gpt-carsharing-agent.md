@@ -3,8 +3,8 @@ layout: post
 title:  "How I use ChatGPT as my personal carsharing agent 🚀"
 date:   2024-04-28 10:00:00 +0200
 permalink: /:title/
-cover: "/images/custom-gpt-ep1/cover.png"
-cover2x: "/images/custom-gpt-ep1/cover@2x.png"
+image: "/images/custom-gpt-ep1/cover.png"
+image2x: "/images/custom-gpt-ep1/cover@2x.png"
 tags: chatgpt custom-gpt
 youtube_id: "4L8UkfQiY0w"
 ---

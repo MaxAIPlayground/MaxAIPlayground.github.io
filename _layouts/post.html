@@ -10,7 +10,7 @@ layout: post_wide
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ page.youtube_id }}?si=Yp1bye6m3eu6uIg9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 {% else %}
-    <img class="!mt-4 !mb-2 shadow-sm rounded-md" src="{{ page.cover }}" srcset="{{ page.cover2x }} 2x" title="{{ page.title }}">
+    <img class="!mt-4 !mb-2 shadow-sm rounded-md" src="{{ page.image }}" srcset="{{ page.image2x }} 2x" title="{{ page.title }}">
 {% endif %}
 
 {{content}}

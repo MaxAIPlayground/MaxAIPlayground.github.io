@@ -3,8 +3,8 @@ layout: post
 title:  "Single Image Transformations: Exploring Instruct Pix2Pix in Stable Diffusion"
 date:   2024-05-08 10:00:00 +0200
 permalink: /:title/
-cover: "/images/instruct-pix-to-pix-stable-diffusion-ep2/cover.jpeg"
-cover2x: "/images/instruct-pix-to-pix-stable-diffusion-ep2/cover@2x.jpeg"
+image: "/images/instruct-pix-to-pix-stable-diffusion-ep2/cover.jpeg"
+image2x: "/images/instruct-pix-to-pix-stable-diffusion-ep2/cover@2x.jpeg"
 tags: stable-diffusion pix2pix
 ---
 
