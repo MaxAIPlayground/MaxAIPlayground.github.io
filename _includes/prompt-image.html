@@ -1,0 +1,15 @@
+<div class="mb-8">
+    <figure class="xs:flex justify-center">
+        <img class="mx-auto xs:mx-1 xs:w-1/2 xs:max-w-96 !mt-0 !mb-1" src="{{ include.base }}" alt="showing base image before pix2pix conversion">
+        <img class="mx-auto xs:mx-1 xs:w-1/2 xs:max-w-96 !mt-0 !mb-1" src="{{ include.result }}" alt="showing pix2pix stable diffusion result of prompt {{ include.prompt }}">
+    </figure>
+    <div class="mb-1 text-center">
+        <code class="language-plaintext highlighter-rouge">prompt: {{ include.prompt }}</code>
+    </div>
+    <div class="language-prompt">
+    {{ include.parameters }}
+    </div>
+    {% if include.opinion %}
+        <div class="mt-2 bg-teal-100 p-2 text-sm"><span class="font-bold">My opinion</span>: {{ include.opinion }}</div>
+    {% endif %}
+</div>

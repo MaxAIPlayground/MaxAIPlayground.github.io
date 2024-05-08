@@ -6,11 +6,8 @@ permalink: /:title/
 cover: "/images/custom-gpt-ep1/cover.png"
 cover2x: "/images/custom-gpt-ep1/cover@2x.png"
 tags: chatgpt custom-gpt
+youtube_id: "4L8UkfQiY0w"
 ---
-
-<div class="aspect-w-16 aspect-h-9">
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4L8UkfQiY0w?si=Yp1bye6m3eu6uIg9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
 
 **The idea**: Employ a customized GPT to handle genuinely useful tasks for me.
 

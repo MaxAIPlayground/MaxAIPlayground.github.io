@@ -28,7 +28,7 @@ logo: "/assets/img/profile-max.png"
 github_username: MaxAIPlayground
 highlighter: rouge
 google_analytics: G-D90NHE2L3B
-show_drafts: false
+show_drafts: true
 
 # Build settings
 theme: null

@@ -1,4 +1,5 @@
-p > .highlighter-rouge {
+p > .highlighter-rouge,
+li > .highlighter-rouge {
     @apply bg-neutral-100 py-0.5 px-1;
 }
 
@@ -225,6 +226,10 @@ p > .highlighter-rouge {
 }
 .language-yaml pre.highlight  {
     @apply text-xs leading-relaxed;
+}
+
+.language-prompt {
+    @apply py-2.5 px-3 leading-relaxed text-sm !text-gray-900 bg-gray-50 text-white;
 }
 
 /* Custom highlighting styles for posts */

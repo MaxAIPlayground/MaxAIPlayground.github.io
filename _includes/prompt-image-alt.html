@@ -1,0 +1,29 @@
+<div class="mb-8">
+    <div class="xs:flex justify-center">
+        <div class="xs:w-1/2 xs:max-w-96 xs:mx-1">
+            <figure>
+                <img class="mx-auto !mt-0 !mb-1" src="{{ include.compare1 }}" alt="showing result of pix2pix using prompt {{ include.prompt1 }}">
+            </figure>
+            <div class="mb-1 text-center">
+                <code class="language-plaintext highlighter-rouge">prompt: {{ include.prompt1 }}</code>
+            </div>
+            <div class="language-prompt">
+            {{ include.parameters1 }}
+            </div>
+        </div>
+        <div class="xs:w-1/2 xs:max-w-96 xs:mx-1">
+            <figure>
+                <img class="mx-auto !mt-0 !mb-1" src="{{ include.compare2 }}" alt="showing result of embedding using prompt {{ include.prompt2 }}">
+            </figure>
+            <div class="mb-1 text-center">
+                <code class="language-plaintext highlighter-rouge">prompt: {{ include.prompt2 }}</code>
+            </div>
+            <div class="language-prompt">
+            {{ include.parameters2 }}
+            </div>
+        </div>
+    </div>
+    {% if include.opinion %}
+        <div class="mt-2 bg-teal-100 p-2 text-sm"><span class="font-bold">My opinion</span>: {{ include.opinion }}</div>
+    {% endif %}
+</div>
